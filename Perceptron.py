@@ -120,6 +120,7 @@ def main():
             if to[i] != target[i]:
                 i = 0
                 print("not pass second test")
+                flag = False
                 break
             else:
                 i+=1
